@@ -81,13 +81,15 @@ export default function Home() {
               <p className="container__text__desc">We have been working witth some Fortune 500+ clients</p>
             </div>
             <div className="container__clients">
-              <Image className="container__clients__item" alt="" src="/client.png" width={48} height={48}/>
-              <Image className="container__clients__item" alt="" src="/client2.png" width={48} height={48}/>
-              <Image className="container__clients__item" alt="" src="/client3.png" width={48} height={48}/>
-              <Image className="container__clients__item" alt="" src="/client4.png" width={48} height={48}/>
-              <Image className="container__clients__item" alt="" src="/client5.png" width={48} height={48}/>
-              <Image className="container__clients__item" alt="" src="/client6.png" width={48} height={48}/>
-              <Image className="container__clients__item" alt="" src="/client7.png" width={48} height={48}/>
+              <div className="container__clients__boxsize">
+                <Image className="container__clients__item" alt="" src="/client.png" width={48} height={48}/>
+                <Image className="container__clients__item" alt="" src="/client2.png" width={48} height={48}/>
+                <Image className="container__clients__item" alt="" src="/client3.png" width={48} height={48}/>
+                <Image className="container__clients__item" alt="" src="/client4.png" width={48} height={48}/>
+                <Image className="container__clients__item" alt="" src="/client5.png" width={48} height={48}/>
+                <Image className="container__clients__item" alt="" src="/client6.png" width={48} height={48}/>
+                <Image className="container__clients__item" alt="" src="/client7.png" width={48} height={48}/>
+              </div>
             </div>
           </div>
         </section>

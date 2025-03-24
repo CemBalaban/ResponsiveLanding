@@ -78,16 +78,20 @@
                 font: var(--body-reg3);
                 line-height: 20px;
                 color: var(--brand-primary);
+
+                padding: 20px 10px;
             }
 
             & .container__right__reg{
                 display: flex;
                 align-items: center;
+                justify-content: center;
                 position: relative;
 
                 width: 91px;
                 height: 40px;
 
+                padding: 20px 10px;
                 border-radius: 6px;
                 background-color: var(--brand-primary);
                 cursor: pointer;
@@ -126,6 +130,8 @@
 .main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     margin-left: 144px;
     margin-right: 144px;
@@ -134,7 +140,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
 
         margin-top:96px;
         width: 100%;
@@ -200,7 +206,6 @@
 
                 & .container__slider__left.loading .container__slider__left__load {
                     display: inline-block;
-                    gap: 8px;
                 }
             }
         }
@@ -214,7 +219,7 @@
         }
         & .container__picker {
             margin-top: 480px;
-            margin-left: 50%; /*********************************************************************/
+            margin-left: 50%;
         }
     }
 
@@ -222,11 +227,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
 
         margin-top: 40px;
-        width: 100%;
 
+        
         & .container__text {
             text-align: center;
 
@@ -254,6 +259,13 @@
 
             width: 1152px;
             height: 98px;
+
+            & .container__clients__boxsize {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 144px;
+            }
 
             & .container__clients__item {
                 height: 48px;
@@ -933,7 +945,7 @@
                     display: inline-block;
                     gap: 8px;
                 }
-                
+
                 .container__button.loading .container__button__img {
                     display: none;
                 }
@@ -943,6 +955,9 @@
 }
 
 .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #263238;
     padding: 64px 165px;
     & .container {
